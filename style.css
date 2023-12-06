@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: end;
+    gap: 400px;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: blanchedalmond;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: flex-end;
+    position: relative;
+    right: 150px;
+}
+.icon{
+    color: brown;
+    padding-right: 1cm;
+}
+.navigation a{
+    text-decoration: none;
+
+}
+#content{
+    display: flex;
+    gap: 10pc;
+    justify-content: center;
+}
+.img{
+    padding-top: 100px;
+    width: 550px;
+    
+}
+#head{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.IPTV{
+color: blue;
+}
+#head h2{
+    font-size: 15px;
+}
+.btn {
+    text-align: end;
+    padding-top: 120px;
+    
+}
